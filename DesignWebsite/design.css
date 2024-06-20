@@ -1,0 +1,187 @@
+html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.InteriorDesign
+{
+    background: url("images/InteriorDesign.jpeg") no-repeat;
+    background-size: 100% 80%;
+    margin-top: 20px;
+    padding-top: 20px;
+    margin-bottom: 1px;
+    width: 100%;
+    /* percentage is set relative to the container element so html , body height and width to be set is mandatory */
+    height: 90vh;
+}
+.InteriorDesign_first h1
+{
+    margin-top: -85px;
+    padding-top: 0;
+    color:aqua;
+    
+}
+.InteriorDesign_first p
+{
+    line-height: 24px;
+    
+}
+.InteriorDesign_first
+{
+    float: left;
+    width: 50%;
+    height: 50%;
+    margin-left: 60px;  
+     /* margin-right: 50px;  */
+}
+.InteriorDesign_second
+{
+    float: right;
+    width: 50%;
+    height: 50%;
+     margin-left: -60px; 
+    /* margin-right: 300px;  */
+}
+
+.Our_Design {
+    margin-top: 300px;
+    /* margin-left:60px; */
+    background-color: #f0eded;
+    padding: 20px;
+    letter-spacing: 0.5px;
+    border: 2px solid transparent;
+}
+.Our_Design_first
+{
+    border: 2px solid white;
+    background-color: white;
+}
+.Our_Design_first p{
+    margin-left: 20px;
+}
+.Ysofa
+{
+    background: url("images/YellowSofa.jpeg") no-repeat;
+    width:20%;
+    height:50%;
+    margin-left:20px;
+    float: left;
+}
+.Ysofa_info
+{
+  
+    width:20%;
+    height:50%;
+    float:left;
+    margin-left: -60px;
+}
+.Vsofa
+{
+    background: url("images/VintageSofa.jpeg") no-repeat;
+    width:20%;
+    height:50%;
+    float:left;
+   
+}
+.Vsofa_info
+{
+  
+    width:20%;
+    height:50%;
+    float:left;
+    margin-left:-60px;
+}
+.AboutDesign_01
+{
+    /* margin-top:250px; */
+    width: 60%;
+    height: 50%;
+    background: url("images/AboutDesign_2.jpeg") no-repeat;
+    margin-bottom: 50px;
+    /* margin-right: 350px; */
+   float:left;
+  
+}
+.AboutDesign_01_info
+{
+    width:40%;
+    height: 50%;
+    float:left;
+    margin-left: -250px;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    margin-bottom: 50px;
+}
+.Turn
+{
+   
+    margin-left: 20px;
+   clear:both;
+}
+.Turn_info
+{
+    border: 2px solid transparent;
+    background-color: #f0eded;
+    padding: 40px;
+    width: 35%;
+    height: 50%; 
+    line-height: 24px;
+    letter-spacing: 0.5px;
+    word-spacing:0.5em;
+    margin-left: 20px;
+    float:left;
+    margin-bottom: 30px;
+}
+
+.Turn2_info
+{
+    letter-spacing:0.5px;
+    line-height: 24px;
+    width:50%;
+    height:60%;
+    margin-left: 20px;
+    /* clear:both; */
+    float:left;
+    margin-right:20px;
+    margin-bottom:20px;
+
+
+}
+.AboutDesign_02
+{
+   
+    width: 50%;
+    height: 50%;
+    background: url("images/AboutDesign.jpeg") no-repeat;
+    clear:both;
+   float:left;
+  
+}
+.AboutDesign_02_info
+{
+    width: 50%;
+     height: 50%;
+    letter-spacing:0.5px;
+    line-height: 24px;
+    margin-right:20px;
+    float:left;
+    margin-left:-25px;
+    
+}
+.Nature
+{
+    clear: both;
+    margin-bottom:20px;
+}
+.Internal{
+ 
+    width: 100%;
+    height: 80%;
+   
+    background: url("images/InteriorDesignlast.jpeg") no-repeat;
+    background-size: 100% 100%;
+   
+    margin-top:100px;
+}

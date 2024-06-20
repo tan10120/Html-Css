@@ -1,0 +1,32 @@
+<html>
+<head><title> str</title>
+</head>
+
+<body>
+	<p>Rev string is: </p>
+	<button ><a href="www.google.com">click</a></button>
+	<button onclick="rev()"> try
+	<p id="a1"></p></button>
+	<form>
+  <label for="phone">Enter your phone number:</label>
+  <input type="tel" id="phone" name="phone" pattern="[0-9]{10}">
+  <input type="submit" name="submit">
+</form>
+<form action="http://google.com">
+	<input type="submit" name="submit" value="go to google">
+</form>
+	<script type="text/javascript">
+		
+		function rev(){
+			var str="hello";
+			var r='';
+			for(i=str.length-1;i>=0;i--)
+			{
+				r+=str[i];
+			}
+			document.getElementById("a1").innerHTML=r;
+		}
+		
+
+	</script>
+</body>

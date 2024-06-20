@@ -1,0 +1,58 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box; }
+:root{
+--myfont:'Mulish',sans-serif;
+--mybtnfont:'Montserrat',sans-serif;
+--lg-light-color:linear-gradient(to left,rgba(116,235,216,0.60),rgba(167,40,243,0.8));
+--lg-color:linear-gradient(to left,#28ae0dc5,rgb(255, 251, 0)); }
+body{
+background-image: url(bg_1.jpg); background-size: 100%; background-repeat: no-repeat; font-family: var(--myfont); display: flex;
+align-items: center; justify-content: center; min-height: 100vh;
+width:100vw;
+} .main{
+background-color: #fffff0;
+border-radius: 12px;
+-webkit-border-radius:10px;
+box-shadow: 0 2.8px 2.2px rgba(0,0,0,0.034),0,6.7px 5.3px rgba(0,0,0,0.048) ; overflow: hidden;
+width: calc(100vw - 65vw);
+max-width: 100%; }
+.head {
+background: var(--lg-color); padding: 30px 0;
+}
+.head h2{
+color:#222;
+font-family: var(--myfont); font-size: 24px; text-transform: uppercase; text-align: center;
+} .form{
+padding: 40px;
+} .form-control{
+margin-bottom: 20px;
+position: relative; }
+.form-control label{ display: inline-block; margin-bottom: 5px;
+}
+.form-control input{
+width:85%;
+height: 37px;
+border: 2px solid #271e1e; border-radius: 5px; display: block;
+font-family: var(--myfont); font-size: 14px;
+padding: 12px;
+}
+.form-control.success input{
+border-color: #2ecc71; }
+.form .btn{
+background: var(--lg-color); border-radius: 6px;
+border: none;
+outline: none;
+color: #fff;
+display: block;
+
+font-family: var(--mybtnfont); font-size: 16px; padding:15px 0;
+font-size: 1.5rem;
+width: 50%;
+font-weight: bold; text-transform: uppercase; transition: all 1s ease; margin: 15px auto;
+}
+.form .btn:hover{
+background: linear-gradient(to right,#74ebd5,#8f9fe4); }
+input[type="checkbox"] {
+border: 8px solid; }

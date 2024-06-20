@@ -1,0 +1,27 @@
+<html>
+	<form>
+		<input type="number" id="n1">
+		<input type="number" id="n2">
+		<input type="number" id="n3">
+		<input type="number" id="n4">
+		<input type="button" name="b" onclick="A()">
+		<p ></p>
+	</form>
+
+	<script>
+		function A()
+		{
+			v1=document.getElementById('n1').value;
+			v2=document.getElementById('n2').value;
+			v3=document.getElementById('n3').value;
+			v4=document.getElementById('n4').value;
+			arr=[v1,v2,v3,v4];
+			arr.sort();
+			for(let i=0;i<=arr.length;i++)
+			{
+				console.log(arr[i]);
+			}
+
+		}
+	</script>
+</html>

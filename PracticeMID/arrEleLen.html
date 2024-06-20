@@ -1,0 +1,27 @@
+<html>
+	<script type="text/javascript">
+		function len(arr)
+		{let sum=0;
+			
+			for(let i=0;i<arr.length;i++)
+			{
+				if(arr[i].toString().length===3)
+				{
+					n=parseInt(arr[i]);
+					while(n>0)
+					{
+						let rem=n%10;
+						sum+=rem;
+						n=Math.floor(n/10);
+					}
+
+				}
+				
+			}
+			return sum;
+		}
+
+		const a=[2,4,123];
+		alert("sum of arr ele =" +len(a));
+	</script>
+</html>
